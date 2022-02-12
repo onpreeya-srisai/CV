@@ -1,0 +1,266 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to right, #48c6ef, #6f86d6);
+}
+
+.resume {
+  width: 1500px;
+  height: auto;
+  background-color: #ffffff;
+  margin: 25px auto;
+  display: flex;
+}
+
+.left {
+  background-color: #004b7a;
+  width: 20%;
+  padding: 0 30px;
+}
+
+.left .imageHolder img {
+  width: 100%;
+  border-radius: 50px;
+  padding-top: 20px;
+}
+
+.right {
+  width: calc(100%-250px);
+}
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  padding: 10px 0;
+  color: #fde796;
+  position: relative;
+  text-align: right;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.left .icon {
+  color: #000000;
+  font-size: 20px;
+}
+
+.left .text {
+  color: #fde796;
+  font-size: 25px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.contact .liWrap {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.contact .liWrap .icon {
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.contact .liWrap .text {
+  width: calc(100% - 50px);
+  word-break: break-word;
+  color: #fde796;
+}
+
+.allClass ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.allClass .liWrap {
+  width: 250px;
+  height: 40px;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.allClass .liWrap {
+  background: linear-gradient(120deg, #dd8602 30%, #bf0000);
+}
+
+.hobbies ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.hobbies .liWrap {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.hobbies .liWrap {
+  border: 10px solid #fff;
+}
+
+.hobbies .liWrap .icon {
+  color: #fff;
+  font-size: 40px;
+}
+
+.header {
+  background: #043b83;
+  padding: 15px 30px;
+  color: #fff;
+  height: 240px;
+}
+
+.header .name {
+  font-size: 52px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.header .role {
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.header .about {
+  margin-top: 20px;
+  line-height: 40px;
+  font-size: 30px;
+}
+
+.right_inner {
+  padding: 30px;
+  color: #292b2f;
+}
+
+.right_inner .education {
+  margin-top: 30px;
+}
+
+.right_inner .li_wrap {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.right_inner .li_wrap .date {
+  width: 125px;
+  color: #9153c9;
+  font-size: 20px;
+}
+
+.right_inner .li_wrap .info {
+  width: calc(100% - 125px);
+  padding-left: 25px;
+  position: relative;
+}
+
+.right_inner .li_wrap .info_title {
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #1a11b6;
+  font-size: 30px;
+}
+
+.right_inner .li_wrap .info_com {
+  font-weight: 300;
+  font-size: 20px;
+  margin-top: 3px;
+}
+
+.right_inner .li_wrap .info_cont {
+  margin-top: 25px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #000000;
+}
+
+/*.right_inner .li_wrap .info:before {
+  content: "";
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 20px;
+  height: 10px;
+  background: #9153c9;
+  border-radius: 50%;
+}*/
+
+.right_inner .li_wrap .info:after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  left: 4px;
+  width: 10px;
+  height: 90%;
+  background: #9153c9;
+}
+/*
+.mySlides {
+  display: none;
+}
+img {
+  vertical-align: middle;
+}
+
+ Slideshow container 
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons 
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right 
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through 
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+*/
